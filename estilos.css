@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    background-color: gray;
+    font-family: arial;
+}
+
+.header {
+    background-color: red;
+    height: 180px;
+    color: white;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixabranca{
+    background-color: white;
+    height:440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.caixabranca .pagina{
+    height: 380px;
+    width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:black ;
+    font-size: 32px;
+
+
+}
+
+.rodape {
+    background-color: darkblue;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.meio{
+    display: flex;
+    background-color: white;
+    min-height: 300px;
+}
+.meio .menu{
+    width: 215px;
+    display: flex;
+    flex-direction: column;
+    background-color: #cee0f8;
+    border-right:1px solid #174d93;
+    align-items: center;
+ 
+}
+.meio .menu a{
+    text-decoration: none;
+    font-size: 24px;
+    color:#174d93 ;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:center ;
+
+}
+.meio .menu a:hover{
+    background-color: white;
+}
+.meio .conteudo {
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+   
+}
+.meio .conteudo .titulo{
+    font-size: 26px;
+    color:#780000;
+    background-color: #ffb1b1;
+    padding: 15px;
+}
+
+.meio .conteudo .texto{
+    font-size: 14px;
+    color: #333333;
+    padding: 15px;
+}
+.meio .conteudo .imagemvideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meio .conteudo .imagemvideo div{
+    width: 340px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    margin: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.meio .conteudo .imagemvideo .imagem {
+    background-color: #174d93;
+}
+
+.meio .conteudo .imagemvideo .video{
+    background-color:#780000 ;
+}
+
+    
+
+
+  
